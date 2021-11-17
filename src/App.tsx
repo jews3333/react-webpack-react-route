@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function App(){
+interface Props {}
+
+function App({}:Props){
     return <h1>Hellow Webpack</h1>
 }
 

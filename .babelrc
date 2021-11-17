@@ -11,6 +11,7 @@
                 }
             }
         ],
-        "@babel/react"
+        "@babel/react",
+        "@babel/typescript"
     ]
 }
