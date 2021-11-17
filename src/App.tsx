@@ -1,14 +1,12 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import styled from 'styled-components';
 
-const Title = styled.h1`
-    color:red;
-`;
+import Top from './Features/Top'
+
 interface Props {}
 
 function App({}:Props){
-    return <Title>Hellow Webpack</Title>
+    return <Top/>
 }
 
 ReactDOM.render(<App/>, document.getElementById('app'));
