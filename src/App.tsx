@@ -1,12 +1,12 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import Top from './Features/Top'
+import Router from './Router';
 
 interface Props {}
 
 function App({}:Props){
-    return <Top/>
+    return <Router/>
 }
 
 ReactDOM.render(<App/>, document.getElementById('app'));

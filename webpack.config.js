@@ -47,5 +47,10 @@ module.exports = {
                 silent: true
             }
         })
-    ]
+    ],
+    devServer: {
+        static: './disc',
+        port: 3000,
+        historyApiFallback: true
+    }
 }
